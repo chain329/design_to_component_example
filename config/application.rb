@@ -13,6 +13,16 @@ module DesignToComponentExample
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
 
+    config.generators do |generate|
+      generate.orm :active_record
+      generate.helper false
+      generate.javascripts false
+      generate.request_specs false
+      generate.routing_specs false
+      generate.stylesheets false
+      generate.test_framework :rspec
+      generate.view_specs false
+    end
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files

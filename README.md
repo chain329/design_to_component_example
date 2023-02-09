@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Start
+```bash
+bundle exec bin/dev
+```
 
-Things you may want to cover:
+## Lookbook
 
-* Ruby version
+[](http://localhost:3000/lookbook)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

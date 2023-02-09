@@ -82,6 +82,8 @@ group :test do
   gem 'webdrivers'
 end
 
+gem 'inline_svg', '~> 1.8'
+
 gem 'lookbook', '~> 1.4', '>= 1.4.5'
 
 gem 'view_component', '~> 2.80'

@@ -7,5 +7,4 @@ bundle exec bin/dev
 
 ## Lookbook
 
-[](http://localhost:3000/lookbook)
-
+[http://localhost:3000/lookbook](http://localhost:3000/lookbook)
